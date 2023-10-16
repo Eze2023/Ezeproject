@@ -1,0 +1,126 @@
+/* #region FONDO */ 
+body{
+    background-image:url("../imagenes/fondopp.jpg");
+    overflow-x: hidden;
+    background-attachment: fixed;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    animation-name: body;
+animation-duration: 1s;
+}
+
+#bordefondonegro{
+    background-image: linear-gradient(rgb(0, 136, 226), violet);
+    position: relative;
+        left: 17em;
+    width: 81em;
+    height: 142em;
+    border-radius: 3em;
+}
+
+#fondonegro{
+    position: relative;
+        left: 0.5em;
+        top: 0.5em;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3em;
+    width: 80em;
+    height: 141em;
+    z-index: -100em;
+}
+
+@keyframes body {
+    from{
+        filter: opacity(0%);
+        transform: translateX(-10em);
+    }
+    to{
+        filter: opacity(100%);
+        transform: translateY(0em);
+    }
+}
+/* #endregion FONDO */ 
+
+/* #region HEADER */ 
+nav{
+    position: relative;
+        left: -0.21em;
+    border-style: solid;
+        border-color: rgb(0, 136, 226);
+        border-width: 0.5em;
+        border-top: 10em;
+        border-right: 0em;
+        border-left: 0em;
+    max-height: 5em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-right: 10em;
+    width: 80.5em;
+}
+
+li{                                        /* posicion del head */
+    display: inline-block;
+    position: relative;
+        right: 7em;
+        margin-left: 7em;
+        padding-top: 0.3em;
+        padding-bottom: 0.3em;
+}
+
+#inicio{
+    color: white;
+    font-size: 2em;
+    text-shadow: 5em;
+    font-family: 'Pixelify Sans', cursive;
+    margin-left: 8.5em;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1.5s;
+}
+    #inicio:hover{
+        color:rgb(82, 209, 199);
+        cursor: pointer;
+        text-shadow: 5em;
+        font-size: 3em;
+        margin-top: -1em;
+        margin-right: -4.12em;
+
+    }
+
+#juegos{
+    color: white;
+    font-size: 2em;
+    text-shadow: 5em;
+    font-family: 'Pixelify Sans', cursive;
+    margin-left: 8.5em;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1.5s;
+}
+    #juegos:hover{
+        color:rgb(59, 170, 204);
+        cursor: pointer;
+        text-shadow: 5em;
+        font-size: 3em;
+        margin-top: -1em;
+        margin-right: -4.48em;
+    }
+
+#contacto{
+    color: white;
+    font-size: 2em;
+    text-shadow: 5em;
+    font-family: 'Pixelify Sans', cursive;
+    margin-right: -100em;
+    margin-left: 8.5em;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1.5s;
+}
+    #contacto:hover{
+        color:rgb(64, 137, 219);
+        cursor: pointer;
+        text-shadow: 5em ;
+        font-size: 3em;
+        margin-top: -1em;
+        margin-right: -100em;
+    }
+/* #endregion HEADER */  
+
+h1{
+    color: white;
+}

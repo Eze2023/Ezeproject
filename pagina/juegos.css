@@ -1,0 +1,418 @@
+/* #region FONDO */ 
+body{
+    background-image:url("../imagenes/fondopp.jpg");
+    overflow-x: hidden;
+    background-attachment: fixed;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    animation-name: body;
+animation-duration: 1s;
+}
+
+#bordefondonegro{
+    background-image: linear-gradient(rgb(0, 136, 226), violet);
+    position: relative;
+        left: 17em;
+    width: 81em;
+    height: 142em;
+    border-radius: 3em;
+}
+
+#fondonegro{
+    position: relative;
+        left: 0.5em;
+        top: 0.5em;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3em;
+    width: 80em;
+    height: 141em;
+    z-index: -100em;
+}
+
+@keyframes body {
+    from{
+        filter: opacity(0%);
+        transform: translateX(-10em);
+    }
+    to{
+        filter: opacity(100%);
+        transform: translateY(0em);
+    }
+}
+/* #endregion FONDO */ 
+
+/* #region HEADER */ 
+
+nav{
+    position: relative;
+        left: -0.21em;
+    border-style: solid;
+        border-color: rgb(0, 136, 226);
+        border-width: 0.5em;
+        border-top: 10em;
+        border-right: 0em;
+        border-left: 0em;
+    max-height: 5em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-right: 10em;
+    width: 80.5em;
+}
+
+li{                                        /* posicion del head */
+    display: inline-block;
+    position: relative;
+        right: 7em;
+        margin-left: 7em;
+        padding-top: 0.3em;
+        padding-bottom: 0.3em;
+}
+
+#inicio{
+    color: white;
+    font-size: 2em;
+    text-shadow: 5em;
+    font-family: 'Pixelify Sans', cursive;
+    margin-left: 8.5em;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1.5s;
+}
+    #inicio:hover{
+        color:rgb(82, 209, 199);
+        cursor: pointer;
+        text-shadow: 5em;
+        font-size: 3em;
+        margin-top: -1em;
+        margin-right: -4.12em;
+
+    }
+
+#juegos{
+    color: white;
+    font-size: 2em;
+    text-shadow: 5em;
+    font-family: 'Pixelify Sans', cursive;
+    margin-left: 8.5em;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1.5s;
+}
+    #juegos:hover{
+        color:rgb(59, 170, 204);
+        cursor: pointer;
+        text-shadow: 5em;
+        font-size: 3em;
+        margin-top: -1em;
+        margin-right: -4.48em;
+    }
+
+#contacto{
+    color: white;
+    font-size: 2em;
+    text-shadow: 5em;
+    font-family: 'Pixelify Sans', cursive;
+    margin-right: -100em;
+    margin-left: 8.5em;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1.5s;
+}
+    #contacto:hover{
+        color:rgb(64, 137, 219);
+        cursor: pointer;
+        text-shadow: 5em ;
+        font-size: 3em;
+        margin-top: -1em;
+        margin-right: -100em;
+}
+
+
+
+#banner{
+    width: 80em;
+    height: 30em;
+    color: rgb(0, 136, 226);
+    border-style: solid;
+    border-width: 0.5em;
+    border-top: 0em;
+    border-left: 0em;
+    border-right: 0em;
+}
+
+#categorias{
+    display: inline-block;
+    color: white;
+    margin-left: 1em;
+    margin-top: 1em;        
+}
+
+#instrucciones{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 60em;
+    color: white;
+}
+#lista{
+margin: 2em;
+margin-top: 2em;
+height: 2.7em;
+padding-top: 1em;
+border-radius: 100em;
+}
+
+#accion{
+    text-decoration: none;
+    color: black;
+    margin-top: 2em;
+    background-color: white;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: white;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+
+}
+#aventura{
+    position: relative;
+    right: 5em;
+    text-decoration: none;
+    color: black;
+    margin-top: 2em;
+    background-color: white;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: white;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+
+}
+#conduccion{
+    position: relative;
+    right: 10em;
+    text-decoration: none;
+    color: black;
+    margin-top: 2em;
+    background-color: white;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: white;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+
+}
+#deportes{
+    position: relative;
+    right: 15em;
+    text-decoration: none;
+    color: black;
+    margin-top: 2em;
+    background-color: white;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: white;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+
+}
+#multiplayer{
+    position: relative;
+    right: 20em;
+    text-decoration: none;
+    color: black;
+    margin-top: 2em;
+    background-color: white;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: white;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+
+}
+#shooter{
+    position: relative;
+    left: 48em;
+    bottom: 1.7em;
+    text-decoration: none;
+    color: black;
+    margin-top: 2em;
+    background-color: white;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: white;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+
+}
+#simulacion{
+    position: relative;
+    left: 43em;
+    bottom: 1.7em;
+    text-decoration: none;
+    color: black;
+    margin-top: 2em;
+    background-color: white;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: white;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+
+}
+
+/* #endregion HEADER */  
+
+/* #region SECCION */
+
+#imagenjuego1{
+    display: inline-block;
+    height: 12em;
+    width: 11em;
+    margin-top: 1.1em;
+    margin-left: 3em;
+    outline: 0.25em;
+    outline-color: white;
+    outline-style: solid;
+border-radius: .2em;
+}
+
+#h3_1{
+    height: 4.8em;
+    width: 3.3em;
+    opacity: 0%;
+    position: absolute;
+    left: 2.5em;
+    text-align: center;
+    padding: 3em;
+    border-radius: 0.2em;
+    display: inline-block;
+color: white;
+transition:ease-out 1s;
+}
+
+#h3_1:hover{
+    height: 4.8em;
+    width: 3.3em;
+    opacity: 100%;
+    position: absolute;
+    left: 2.5em;
+    text-align: center;
+    padding: 3em;
+    border-radius: 0.2em;
+    display: inline-block;
+color: white;
+background-color: rgba(0, 0, 0, 0.548);
+}
+
+#linkjuego1{
+    position: absolute;
+    left: 1.8em;
+    bottom: 51em;
+    display: inline-block;
+    width: 7.4em;
+    height: 1.5em;
+color: white;
+background-color: rgb(43, 198, 226);
+border-style: solid;
+border-width: .2em;
+padding-top: .4em;
+border-radius: .25em;
+font-size: 1.5em;
+text-align: center;
+transition: linear .5s;
+}
+#linkjuego1:hover{
+    position: absolute;
+    left: 1.8em;
+    bottom: 51em;
+    display: inline-block;
+    width: 7.4em;
+    height: 1.5em;
+color: white;
+background-color: rgb(70, 67, 218);
+border-style: solid;
+border-width: .2em;
+padding-top: .4em;
+border-radius: .25em;
+font-size: 1.5em;
+text-align: center;
+}
+
+#imagenjuego2{
+    display: inline-block;
+    height: 12em;
+    width: 11em;
+    margin-top: 1.1em;
+    margin-left: 3em;
+    outline: 0.25em;
+    outline-color: white;
+    outline-style: solid;
+border-radius: .2em;
+}
+
+#h3_2{
+    margin-left: 12.3em;
+    height: 4.8em;
+    width: 3.3em;
+    opacity: 0%;
+    position: absolute;
+    left: 2.5em;
+    text-align: center;
+    padding: 3em;
+    border-radius: 0.2em;
+    display: inline-block;
+color: white;
+transition:ease-out 1s;
+}
+
+#h3_2:hover{
+    margin-left: 12.3em;
+    height: 4.8em;
+    width: 3.3em;
+    opacity: 100%;
+    position: absolute;
+    left: 2.5em;
+    text-align: center;
+    padding: 3em;
+    border-radius: 0.2em;
+    display: inline-block;
+color: white;
+background-color: rgba(0, 0, 0, 0.548);
+}
+
+#linkjuego2{
+    margin-left: 9.5em;
+    position: absolute;
+    left: 1.8em;
+    bottom: 51em;
+    display: inline-block;
+    width: 7.4em;
+    height: 1.5em;
+color: white;
+background-color: rgb(43, 198, 226);
+border-style: solid;
+border-width: .2em;
+padding-top: .4em;
+border-radius: .25em;
+font-size: 1.5em;
+text-align: center;
+transition: linear .5s;
+}
+#linkjuego2:hover{
+    position: absolute;
+    left: 1.8em;
+    bottom: 51em;
+    display: inline-block;
+    width: 7.4em;
+    height: 1.5em;
+color: white;
+background-color: rgb(70, 67, 218);
+border-style: solid;
+border-width: .2em;
+padding-top: .4em;
+border-radius: .25em;
+font-size: 1.5em;
+text-align: center;
+}
+/* #endregion SECCION */

@@ -1,0 +1,384 @@
+/* #region FONDO */ 
+body{
+    background-image:url("../imagenes/fondopp.jpg");
+    overflow-x: hidden;
+    background-attachment: fixed;
+    margin-top: 2em;
+    margin-bottom: 2em;
+animation-name: body;
+animation-duration: 1s;
+}
+
+#bordefondonegro{
+    background-image: linear-gradient(rgb(0, 136, 226), violet);
+    position: relative;
+        left: 17em;
+    width: 81em;
+    height: 147em;
+    border-radius: 3em;
+}
+
+#fondonegro{
+    position: relative;
+        left: 0.5em;
+        top: 0.5em;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3em;
+    width: 80em;
+    height: 146em;
+    z-index: -100em;
+}
+
+@keyframes body {
+    from{
+        filter: opacity(0%);
+        transform: translateX(-10em);
+    }
+    to{
+        filter: opacity(100%);
+        transform: translateY(0em);
+    }
+}
+/* #endregion FONDO */ 
+
+/* #region HEADER */ 
+nav{
+    position: relative;
+        left: -0.21em;
+    border-style: solid;
+        border-color: rgb(0, 136, 226);
+        border-width: 0.5em;
+        border-top: 10em;
+        border-right: 0em;
+        border-left: 0em;
+    max-height: 5em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-right: 10em;
+    width: 80.5em;
+}
+
+li{                                        /* posicion del head */
+    display: inline-block;
+    position: relative;
+        right: 7em;
+        margin-left: 7em;
+        padding-top: 0.3em;
+        padding-bottom: 0.3em;
+}
+
+#inicio{
+    color: white;
+    font-size: 2em;
+    text-shadow: 5em;
+    font-family: 'Pixelify Sans', cursive;
+    margin-left: 8.5em;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1.5s;
+}
+    #inicio:hover{
+        color:rgb(82, 209, 199);
+        cursor: pointer;
+        text-shadow: 5em;
+        font-size: 3em;
+        margin-top: -1em;
+        margin-right: -4.12em;
+
+    }
+
+#juegos{
+    color: white;
+    font-size: 2em;
+    text-shadow: 5em;
+    font-family: 'Pixelify Sans', cursive;
+    margin-left: 8.5em;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1.5s;
+}
+    #juegos:hover{
+        color:rgb(59, 170, 204);
+        cursor: pointer;
+        text-shadow: 5em;
+        font-size: 3em;
+        margin-top: -1em;
+        margin-right: -4.48em;
+    }
+
+#contacto{
+    color: white;
+    font-size: 2em;
+    text-shadow: 5em;
+    font-family: 'Pixelify Sans', cursive;
+    margin-right: -100em;
+    margin-left: 8.5em;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1.5s;
+}
+    #contacto:hover{
+        color:rgb(64, 137, 219);
+        cursor: pointer;
+        text-shadow: 5em ;
+        font-size: 3em;
+        margin-top: -1em;
+        margin-right: -100em;
+    }
+/* #endregion HEADER */  
+
+/* #region SECTION */ 
+header{
+    background-image: linear-gradient(145deg, rgb(48, 174, 212), rgb(187, 12, 79));
+    margin-bottom: 10em;
+}
+
+h1{
+    display: inline-block;
+    position: relative;
+        left: 2em;
+        bottom: 11em;
+    color: white;
+    font-family: 'Dela Gothic One';
+}
+h2{
+    display: inline-block;
+    position: relative;
+        left: 0em;
+        bottom: 10em;
+    color: white;
+    font-family: 'Dela Gothic One';
+}
+
+#imagentitulo{
+    display: inline-block;
+    position: relative;
+        left: 3em;
+        top: 9em;
+    width: 35em;
+    height: 30em;
+    margin-bottom: 10em;
+    border-radius: 2em;
+}
+
+#redes{
+font-family: 'Dela Gothic One';
+color: white;
+margin-left: 2em;
+
+}
+
+#instagram{
+    display: inline-block;
+    position: relative;
+color: rgb(255, 255, 255);
+margin-left: 7em;
+font-size: 3em;
+transition: ease-in 0.25s;
+}
+
+#instagram:hover{
+    display: inline-block;
+    position: relative;
+color: rgb(224, 81, 243);
+margin-left: 7em;
+font-size: 3em;
+}
+
+#linkedin{
+    display: inline-block;
+    position: relative;
+color: rgb(255, 255, 255);
+margin-left: 1em;
+font-size: 3em;
+transition: ease-in 0.25s;
+}
+
+#linkedin:hover{
+    display: inline-block;
+    position: relative;
+color: rgb(35, 67, 104);
+margin-left: 1em;
+font-size: 3em;
+}
+
+#facebook{
+    display: inline-block;
+    position: relative;
+    color: rgb(255, 255, 255);
+    margin-left: 1em;
+font-size: 3em;
+transition: ease-in 0.25s;
+}
+
+#facebook:hover{
+    display: inline-block;
+    position: relative;
+    color: rgb(33, 64, 206);
+    margin-left: 1em;
+font-size: 3em;
+}
+
+#caja1{
+    background-color: rgba(25, 25, 112, 0.548);
+    position: relative;
+        left: 4em;
+    border-radius: 3em;
+    border-style: solid;
+    border-color: white;
+    width: 72em;
+    height: 20em;
+}
+
+#texto1{
+    position: relative;
+        top: 0em;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3em;
+    margin-left: 1em;
+    margin-top: 3em;
+
+}
+#texto1::first-line{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5em;
+    text-decoration-line: underline;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+}
+
+
+#imagen1{
+    position: relative;
+        left: 43em;
+        bottom: 16.1em;
+    width: 28.8em;
+    height: 20em;
+    border-radius: 3em;
+    border-color: white;
+    border-style: solid;
+}
+
+#caja2{
+    background-color: rgba(25, 77, 112, 0.548);
+    position: relative;
+        left: 4em;
+    border-radius: 3em;
+    border-style: solid;
+    border-color: white;
+    width: 72em;
+    height: 20em;
+    margin-top: 2em;
+}
+
+#texto2{
+    position: relative;
+        top: 0em;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3em;
+    margin-left: 25em;
+    margin-top: 3em;
+
+}
+#texto2::first-line{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5em;
+    text-decoration-line: underline;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+}
+
+
+#imagen2{
+    position: relative;
+        left: -0.1em;
+        bottom: 16.1em;
+    width: 30em;
+    height: 20em;
+    border-radius: 3em;
+    border-color: white;
+    border-style: solid;
+}
+
+#caja3{
+    background-color: rgba(25, 25, 112, 0.548);
+    position: relative;
+        left: 4em;
+    border-radius: 3em;
+    border-style: solid;
+    border-color: white;
+    width: 72em;
+    height: 20em;
+    margin-top: 2em;
+}
+
+#texto3{
+    position: relative;
+        top: 0em;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3em;
+    margin-left: 1em;
+    margin-top: 3em;
+
+}
+#texto3::first-line{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5em;
+    text-decoration-line: underline;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+}
+
+
+#imagen3{
+    position: relative;
+        left: 43em;
+        bottom: 16em;
+    width: 28.8em;
+    height: 20em;
+    border-radius: 3em;
+    border-color: white;
+    border-style: solid;
+}
+
+#botonvolver{
+    position: relative;
+        left: 35em;
+    color:white;
+    display: block;
+    background-color: rgba(29, 83, 184, 0);
+    border-radius: 2em;
+    border-color: rgb(207, 127, 207);
+    border-style: solid;
+    height: 1em;
+    width: 6em;
+    padding: 1em;
+    margin-top: 5em;
+    text-decoration: none;
+    text-align: center;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955)0.25s;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.2em;
+    font-weight:500;
+    font-size: 1em;
+    scroll-behavior:smooth;
+}
+#botonvolver:hover{
+    position: relative;
+        left: 35em;
+    color:white;
+    display: block;
+    background-color: rgb(207, 127, 207);
+    border-radius: 2em;
+    border-color: rgb(207, 127, 207);
+    border-style: solid;
+    height: 1em;
+    width: 6em;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    scroll-behavior:smooth;
+}
+/* #endregion SECCION */
+
+
