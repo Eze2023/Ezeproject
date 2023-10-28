@@ -5,8 +5,10 @@ body{
     background-attachment: fixed;
     margin-top: 2em;
     margin-bottom: 2em;
-animation-name: body;
+    animation-name: body;
 animation-duration: 1s;
+position: relative;
+left: 1em;
 }
 
 #bordefondonegro{
@@ -42,6 +44,7 @@ animation-duration: 1s;
 /* #endregion FONDO */ 
 
 /* #region HEADER */ 
+
 nav{
     position: relative;
         left: -0.21em;
@@ -130,11 +133,27 @@ header{
 h1{
     display: inline-block;
     position: relative;
-        left: 2em;
-        bottom: 11em;
-    color: white;
-    font-family: 'Dela Gothic One';
+        left: 1em;
+        bottom: 6.5em;
+    font-family: 'Bebas Neue';
+letter-spacing: 0.1em;
+font-size: 3.7em;
+animation-name: titulo;
+animation-duration:  5s;
+animation-iteration-count: infinite;
+animation-direction:alternate;
 }
+
+@keyframes titulo {
+  from{
+    color: rgb(255, 255, 255);
+  } 
+  to{
+    color: rgb(0, 0, 0);
+  } 
+}
+
+
 h2{
     display: inline-block;
     position: relative;
@@ -142,7 +161,21 @@ h2{
         bottom: 10em;
     color: white;
     font-family: 'Dela Gothic One';
+    animation-name: titulo2;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction:alternate;
 }
+
+@keyframes titulo2 {
+    from{
+        color: rgb(0, 0, 0);
+
+    } 
+    to{
+        color: rgb(255, 255, 255);
+    } 
+  }
 
 #imagentitulo{
     display: inline-block;
@@ -153,6 +186,7 @@ h2{
     height: 30em;
     margin-bottom: 10em;
     border-radius: 2em;
+    box-shadow: 3em 3em 7em 1em black;
 }
 
 #redes{
@@ -179,7 +213,7 @@ margin-left: 7em;
 font-size: 3em;
 }
 
-#linkedin{
+#twitter{
     display: inline-block;
     position: relative;
 color: rgb(255, 255, 255);
@@ -188,10 +222,10 @@ font-size: 3em;
 transition: ease-in 0.25s;
 }
 
-#linkedin:hover{
+#twitter:hover{
     display: inline-block;
     position: relative;
-color: rgb(35, 67, 104);
+color: rgb(0, 0, 0);
 margin-left: 1em;
 font-size: 3em;
 }

@@ -7,6 +7,8 @@ body{
     margin-bottom: 2em;
     animation-name: body;
 animation-duration: 1s;
+position: relative;
+left: 1em;
 }
 
 #bordefondonegro{
